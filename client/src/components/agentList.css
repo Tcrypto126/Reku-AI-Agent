@@ -1,0 +1,42 @@
+.agent-list table tbody tr td {
+    padding: 16px 24px;
+    height: 86px;
+    text-align: start;
+}
+
+.agent-list table tbody tr td:first-child {
+    padding: 16px 8px;
+}
+
+@media only screen and (max-width: 930px) {
+    .agent-list table tbody tr td {
+        padding: 12px 2px;
+    }
+    .agent-list table tbody tr td:first-child {
+        padding: 12px 2px;
+    }
+    .agent-list table thead tr th:nth-child(2) {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+
+.agent-list table tbody tr td:nth-child(3) {
+    text-align: center;
+}
+
+.agent-list table tbody tr td:last-child {
+    text-align: end;
+}
+
+.agent-list-tabs .rt-TabsTrigger:hover .rt-BaseTabListTriggerInner {
+    background: none;
+}
+
+.agent-list-tabs .rt-TabsTrigger:hover {
+    background-color: #373737;
+}
+
+.agent-list-tabs [aria-selected="true"] {
+    background-color: #373737;
+}
